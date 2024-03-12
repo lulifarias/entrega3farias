@@ -71,6 +71,62 @@ header #contacts .contacts ul {
   font-family: "Bebas neue", sans-serif;
 }
 
+#hero {
+  width: 100%;
+  height: 600px;
+  background-image: url(../imagenes/pintura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 60px;
+}
+#hero .hero h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 120px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  padding: 0px 60px;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero p {
+  font-size: 30px;
+  font-weight: 60;
+  padding: 0px 60px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+#hero .hero a {
+  background-color: rgb(138, 46, 74);
+  padding: 15px 20px;
+  margin: 475px;
+  border-radius: 8px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 10px;
+  cursor: pointer;
+}
+#hero #information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 40px;
+}
+#hero #information information h2 {
+  color: rgb(87, 25, 41);
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
