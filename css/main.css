@@ -1,17 +1,102 @@
-/* Error: expected "}".
- *    ,
- * 75 |                             }
- *    |                              ^
- *    '
- *   scss\app.scss 75:30  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 75 \2502                              }\a    \2502                               ^\a    \2575 \a   scss\\app.scss 75:30  root stylesheet';
+header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  padding: 12px;
 }
+header .header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+header .header .list-item a {
+  text-decoration: none;
+  font-family: "Bebas neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  color: rgb(87, 25, 41);
+  padding: 60px;
+}
+header .header .list-item-dropdown a {
+  text-decoration: none;
+  font-family: "Bebas neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  color: rgb(87, 25, 41);
+  padding: 60px;
+}
+header .header .list-item-logo a {
+  font-size: 34px;
+  padding: 12px 24px;
+  font-family: "Bebas neue", sans-serif;
+  font-size: 34px;
+  padding: 12px 24px;
+}
+header .list-item-dropdown {
+  position: relative;
+}
+header .list-item-dropdown .list-item-dropdown:hover .dropdown-container {
+  display: flex;
+}
+header .dropdown-container {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: rgb(87, 25, 41);
+  color: white;
+  padding: 20px;
+  flex-direction: column;
+  width: 100px;
+  border-radius: 8px;
+}
+header .dropdown-container li {
+  border-right: unset;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgb(138, 46, 74);
+  font-size: 14px;
+  align-items: center;
+}
+header .dropdown-container li:last-of-type {
+  border-bottom: unset;
+}
+header #contacts .contacts ul {
+  font-family: "Bebas neue", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+}
+footer .footer img {
+  justify-content: flex-start;
+  object-fit: cover;
+  width: 100px;
+  padding: 0px 10px;
+}
+footer .footer a {
+  background-color: rgb(138, 46, 74);
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  width: fit-content;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
