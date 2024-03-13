@@ -23,14 +23,14 @@ $tipography-principal: "Bebas neue"
             align-items: center;
             list-style-type: none;
         }
-    list-item a {
-        text-decoration: none;
-        font-family: $tipography-principal;
-        font-size: 18px;
-        font-weight: 400px;
-        color: $color-secundary;
-        padding: 60px;
-    }
+        list-item a {
+            text-decoration: none;
+            font-family: $tipography-principal;
+            font-size: 18px;
+            font-weight: 400px;
+            color: $color-secundary;
+            padding: 60px;
+        }
 
     .header .list-item-dropdown a {
         text-decoration: none;
