@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+
+    img {
+        justify-content: flex-start;
+        object-fit: cover;
+        width: 100px;
+        padding: 0 10px;
+    }
+
+    a {
+        background-color: rgb(138, 46, 74);
+        padding: 15px 10px;
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+        width: fit-content;
+        cursor: pointer;
+        margin: 10px;
+    }
+}
